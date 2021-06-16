@@ -10,67 +10,53 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	  <a class="navbar-brand" href="#">Salud dental</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    <div class="navbar-nav">
+	      <a class="nav-link" href="index.html">Principal</a>
+	      <a class="nav-link active" href="add.html">Citas</a>
+	      <a class="nav-link" href="users.html">usuarios</a>
+	    </div>
+	  </div>
 	</nav>
 
 	<div class="container mt-5">
 		<div class="row">
 			<form class="col">
-			  <div class="form-row">
-			    <div class="form-group col-md-6">
-			      <label for="inputEmail4">Nombre</label>
-			      <input type="text" class="form-control" id="inputEmail4">
-			    </div>
-			    <div class="form-group col-md-6">
-			      <label for="inputPassword4">Telefono</label>
-			      <input type="number" class="form-control" id="inputPassword4">
-			    </div>
-			  </div>
-			  <div class="form-group">
-			    <label for="inputAddress">Dirección</label>
-			    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-			  </div>
-			  <div class="form-row">
-			    <div class="form-group col-md-6">
-			      <label for="inputEmail4">Apellido paterno</label>
-			      <input type="text" class="form-control" id="inputEmail4">
-			    </div>
-			    <div class="form-group col-md-6">
-			      <label for="inputPassword4">Apellido materno</label>
-			      <input type="number" class="form-control" id="inputPassword4">
-			    </div>
-			  </div>
-			  <div class="form-row">
-			    <div class="form-group col-md-6">
-			      <label for="inputCity">Fecha</label>
-			      <input type="date" class="form-control" id="inputCity">
-			    </div>
-			    <div class="form-group col-md-4">
-			      <label for="inputState">Motivo</label>
-			      <select id="inputState" class="form-control">
-			        <option selected>Selecciona</option>
-			        <option>Limpieza dental</option>
-			        <option>Colocación y cambio de amalgama</option>
-			        <option>Colocación y cambio de resina</option>
-			        <option>Extracción de piezas dentales</option>
-			        <option>Atención del cirujano dental</option>
-			      </select>
-			    </div>
-			    <div class="form-group col-md-2">
-			      <label for="inputZip">Hora</label>
-			      <input type="text" class="form-control" id="inputZip" placeholder="15:20">
-			    </div>
-			  </div>
-			  <div class="form-row">
-			    <div class="form-group col-md-6">
-			      <label for="inputEmail4">Sexo</label>
-			      <select id="inputState" class="form-control">
-			        <option selected>Selecciona</option>
-			        <option>F</option>
-			        <option>M</option>
-			      </select>
-			    </div>
+				<div class="form-row mb-2">
+						<label>Paciente</label>
+						<select id="inputState" class="form-control">
+				        <option selected>Selecciona</option>
+				        <option>Name Last name Last name</option>
+				        <option>Name Last name Last name</option>
+				        <option>Name Last name Last name</option>
+				        <option>Name Last name Last name</option>
+				      </select>
+				</div>
+				<div class="form-row">
+				    <div class="form-group col-md-6">
+				      <label for="inputCity">Fecha</label>
+				      <input type="date" class="form-control" id="inputCity">
+				    </div>
+				    <div class="form-group col-md-4">
+				      <label for="inputState">Motivo</label>
+				      <select id="inputState" class="form-control">
+				        <option selected>Selecciona</option>
+				        <option>Limpieza dental</option>
+				        <option>Colocación y cambio de amalgama</option>
+				        <option>Colocación y cambio de resina</option>
+				        <option>Extracción de piezas dentales</option>
+				        <option>Atención del cirujano dental</option>
+				      </select>
+				    </div>
+				    <div class="form-group col-md-2">
+				      <label for="inputZip">Hora</label>
+				      <input type="text" class="form-control" id="inputZip" placeholder="15:20">
+				    </div>
 			  </div>
 			  <button type="submit" class="btn btn-primary">Agendar</button>
 			  <a href="index.html" class="btn btn-outline-danger">Regresar</a>
@@ -86,7 +72,7 @@
 							<th scope="col">Martes</th>
 							<th scope="col">Miercoles</th>
 							<th scope="col">Jueves</th>
-							<th scope="col">Virnes</th>
+							<th scope="col">Viernes</th>
 						</tr>
 					</thead>
 					<tbody>
